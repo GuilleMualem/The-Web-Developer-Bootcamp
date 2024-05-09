@@ -1,0 +1,31 @@
+body{
+    position: relative;
+}
+
+img{
+    width: 321px;
+    height: 106px;
+}
+h2{
+    color: #1c1e21;
+    display: inline-block;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    width: 471px;
+
+}
+#main{
+    width: 70%;
+    height: 350px;
+    margin: 0 auto;
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+
+
