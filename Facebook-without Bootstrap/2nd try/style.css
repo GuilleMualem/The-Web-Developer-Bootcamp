@@ -7,7 +7,7 @@ body {
   align-items: center;
 }
 
-.contenedor-principal {
+.principal-container {
   display: flex;
   justify-content: space-between;
   /* Ajusta la distancia entre los elementos */
@@ -18,7 +18,7 @@ body {
  
 }
 
-.contenedor-imagen-titulo {
+.container-img-title {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +29,7 @@ body {
   /* Ajusta este valor según sea necesario */
 }
 
-.contenedor-imagen-titulo img {
+.container-img-title img {
   display: flex;
   width: 300px;
   height: auto;
@@ -39,7 +39,7 @@ body {
   position: relative;
   left: 3.6em;
 }
-.contenedor-imagen-titulo h2 {
+.container-img-title h2 {
   margin-top: 0%;
   color: #373737;
   display: inline-block;
@@ -55,7 +55,7 @@ body {
 }
 
 /* Estilos para el div contenedor grande */
-.contenedor-grande {
+.container-form {
   background-color: white;
   border: 1px solid #dddfe2;
   /* Borde visible */
@@ -72,12 +72,12 @@ body {
   /* Espacio entre el nuevo div y.contenedor-grande */
 }
 
-.contenedor {
+.container {
   display: block;
   width: 100%;
 }
 
-.contenedor input {
+.container input {
   display: block;
   /* Asegura que los inputs sean bloques, uno debajo del otro */
   width: 100%;
@@ -87,7 +87,7 @@ body {
   border: 1px solid #dddfe2;
 }
 
-.contenedor button{
+.container button{
   display: block;
   margin: auto;
   width: 100%;
@@ -119,13 +119,13 @@ border-radius: 6px;
 .create-account:hover {
 
 }
-.form-casillas{
+.form-input{
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 6px;
 }
 
-.form-casillas::placeholder{
+.form-input::placeholder{
   padding: 0 8px;
 }
 
@@ -136,7 +136,7 @@ border-radius: 6px;
   height: 100%; /* Asegura que el contenedor tenga altura */
   padding-top: 6px;
 }
-.linea{
+.line{
   display: flex;
   text-align: center;
   align-items: center;
@@ -154,5 +154,6 @@ border-radius: 6px;
   margin-top: 80px; /* Espacio entre el contenido principal y el footer */
 
 }
+
 /* Estilos para el div contenedor de los inputs */
 
