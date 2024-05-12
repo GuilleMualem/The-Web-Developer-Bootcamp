@@ -68,6 +68,7 @@ body {
   /* Centra el contenedor grande horizontalmente */
   border-radius: 10px;
   margin-top: 20px;
+  box-shadow: 0 4px 8px #0000001a;
   /* Espacio entre el nuevo div y.contenedor-grande */
 }
 
@@ -142,12 +143,16 @@ border-radius: 6px;
   border-bottom: 1px solid #dadde1;
   margin: 20px 16px;
 }
+.footer {
+  display: flex;
+  justify-content: center; /* Alinea el contenido del footer al centro */
+  align-items: center; /* Alinea el contenido del footer verticalmente al centro */
+  background-color: #f0f2f5; /* Color de fondo similar al body */
+  border-top: 1px solid #dddfe2; /* Línea horizontal en la parte superior */
+  padding: 20px; /* Relleno alrededor del contenido del footer */
+  width: 100%; /* Asegurar que el footer ocupe todo el ancho disponible */
+  margin-top: 80px; /* Espacio entre el contenido principal y el footer */
 
-
+}
 /* Estilos para el div contenedor de los inputs */
 
-/* Lunes Por La Noche:::
-Voy al encuentro del input centrado. Ahora faltará estirar hacia abajo
-el rectangulo, y poner los sucesivos divs y botones por debajo. + resto de 
-detalles.
-*/
