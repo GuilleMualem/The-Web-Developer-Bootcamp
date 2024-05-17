@@ -1,7 +1,0 @@
-.col::before {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    bottom: 0;
-    border-left: 1px solid #000; /* Cambia el color según prefieras */
-}
