@@ -1,0 +1,156 @@
+body {
+    background-color: #c9ccd1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .principal-container {
+    display: flex;
+    justify-content: space-between;
+    /* Ajusta la distancia entre los elementos */
+    width: 100%;
+    /* Asegura que el contenedor principal ocupe todo el ancho disponible */
+    max-width: 1200px;
+    padding-top: 120px;
+   
+  }
+  
+  .container-img-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    max-width: 600px;
+    padding-top: 6rem;
+    /* Ajusta este valor según sea necesario */
+  }
+  
+  .container-img-title img {
+    display: flex;
+    width: 300px;
+    height: auto;
+    
+  }
+  .move-h2{
+    position: relative;
+    left: 3.6em;
+  }
+  .container-img-title h2 {
+    margin-top: 0%;
+    color: #373737;
+    display: inline-block;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    padding: 42px 0 24px;
+    text-rendering: optimizelegibility;
+    width: 456px;
+    
+  }
+  
+  /* Estilos para el div contenedor grande */
+  .container-form {
+    background-color: white;
+    border: 1px solid #dddfe2;
+    padding: 20px;
+    margin: auto; /* Centra el contenedor grande horizontalmente */
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px #0000001a;
+   
+  }
+  
+  .container-input-button {
+    display: block;
+    width: 100%;
+  }
+  
+  .container input {
+    display: block;
+    /* Asegura que los inputs sean bloques, uno debajo del otro */
+    width: 100%;
+    /* Ocupa toda la anchura de.contenedor */
+    margin-bottom: 10px;
+    /* Agrega un poco de espacio debajo de cada input */
+    border: 1px solid #dddfe2;
+  }
+  
+  .container button{
+    display: block;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+  }
+  #button-blue{
+    background-color:#0866ff;
+   border: none;
+   font-weight: bold;
+   font-size: 16px;
+  }
+  .create-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 10px 12px; /* Ajusta el relleno según tus necesidades */
+    font-size: 22px; 
+    font-weight: bold;
+    color: #fff; /* Color del texto */ /* Color de fondo, similar al de Facebook */
+    border: none; /* Elimina el borde predeterminado */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse sobre el botón */
+    transition: background-color 0.3s ease;
+  background-color: #42b72a;
+  border-color: #42b72a;
+  border-radius: 6px;
+  }
+  .create-account:hover {
+  
+  }
+  .form-input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+  }
+  
+  .form-input::placeholder{
+    padding: 0 8px;
+  }
+  
+  .question{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%; /* Asegura que el contenedor tenga altura */
+    padding-top: 6px;
+  }
+  .line {
+    width: 75%;
+    height: 1px;
+    background-color: #808080;
+  }
+  }
+  .footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color:white; 
+    border-top: 1px solid #dddfe2; 
+    padding: 200px; 
+    width: 100%;
+   
+   
+  
+  }
+  
+  /* Estilos para el div contenedor de los inputs */
+  
