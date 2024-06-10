@@ -1,21 +1,132 @@
-img {
+/* img {
     max-width: 370px;
     max-height: 330px;
-}
-.bg-info{
-    padding-top: 200px;
-}
-.col-10{
-    min-width: 370px;
-    min-height: 1240px;
-    border: 1px solid white;
-}
 
-/*
-He creado 2 col de 6.
-les agregué bg color a cada una.
-luego borré el contenido de 1, le meti la img, con las medidas que quería de la img
-y luego debajo le meti el h2, y luego le agregué padding top para que me lo baje al centro.
-De esta manera tenemos un buen comienzo para centrar img y h2, y luego el form.
-No está mal. Intentar seguir por ahí
-*/
+} */
+
+body {
+  background-color: #f0f2f5;
+
+  }
+ .container-xl{
+  padding-top: 120px;
+ }
+
+ .container-img-title{
+  padding-top: 40px;
+ }
+.container-img-title img {
+    display: flex;
+    width: 300px;
+    height: auto;
+  }
+  .container-form {
+    background-color: white;
+     border: 1px solid #dddfe2;
+     padding: 20px;
+     margin: auto;
+     margin-left: 3em;
+     border-radius: 10px;
+     margin-top: 20px;
+     box-shadow: 0 4px 8px #0000001a;
+     max-width: 397px; 
+     max-height: 359px;
+    
+   }
+
+   h2 {
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    padding: 42px 0 24px;
+    text-rendering: optimizelegibility;
+   }
+
+   .form-input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+  }
+
+  .form-input::placeholder{
+    padding: 0 8px;
+  }
+
+  .container input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+  }
+
+  .container-input-button {
+    display: block;
+    width: 100%;
+  }
+
+  .container button{
+    display: block;
+    margin: auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+  }
+  #button-blue{
+    background-color:#0866ff;
+   border: none;
+   font-weight: bold;
+   font-size: 18px;
+  }
+  .create-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    font-size: 22px; 
+    max-width: 170px;
+    font-weight: bold;
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+  background-color: #42b72a;
+  border-color: #42b72a;
+  border-radius: 6px;
+  }
+
+  .question{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    padding-top: 6px;
+
+  }
+  .question a{
+    text-decoration: none;
+  }
+
+  .line {
+    width: 100%;
+    height: 1px;
+    background-color: #eae7e7;
+  }
+
+.a-page{
+  color: #1c1e21;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+
+  }
+  
+.a-page a{
+font-weight: 600;
+color: black;
+text-decoration: none;
+  }
