@@ -1,16 +1,11 @@
-<!--LEER TEXTO EN STYLE CSS !!!!!!!!!!!!!
 
-!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!
-
--->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Testings-2024</title>
+    <title>Testing-2</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -18,21 +13,43 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container-xl">
       <div class="row">
-        <div class="col-6 bg-info">
-          <img src="img/4lCu2zih0ca.svg" alt="facebook" />
-          <h2>
-            Facebook helps you communicate and share with the people in your
-            life.
-          </h2>
-        </div>
-        <div class="col-6 bg-success">
-          I AM ALSO 6 COLUMNS
-          <div class="row">
-            <div class="col-10"></div>
+        <div class="col-6">
+          <div class="container-img-title">
+            <img src="img/4lCu2zih0ca.svg" alt="Facebook" />
+            <h2 class="move-h2">
+              Facebook helps you communicate and share with the people in your life.
+            </h2>
           </div>
+
         </div>
+        <div class="col-6">
+          <div class="container-form flex-column align-items-start">
+            <div class="container flex-column align-items-center">
+              <input
+                class="form-input mb-3"
+                type="text" 
+                placeholder="Email or phone number"
+              />
+              <input
+                class="form-input mb-3"
+                type="password"
+                placeholder="Password"
+              />
+              <button class="form-input mb-3" id="button-blue" name="button-log-in">Log in</button>
+              <div class="question mb-3">
+                <a href="#">Forgot your password?</a>
+              </div>
+              <div class="line mb-2 d-flex justify-content-center"></div>
+              <button id="create" class="create-account" name="create-account">Create new account</button>
+            </div>
+          </div>
+          <div class="a-page text-center mt-3">
+          <a href="#" class="a-href">Create a page</a> for a celebrity, a brand or a company.
+        </div>
+        </div>
+
       </div>
     </div>
 
