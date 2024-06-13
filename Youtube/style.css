@@ -1,17 +1,7 @@
-#first, #second, #third, #fourth {
-min-width: 2rem;
-min-height: 1200px;
-border: 1px solid white;
-position: relative;
-}
-.inner-rectangle{
-    position: relative;
-    width: 364px; 
-    height: 201px;
-    background-color: white; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    top: 10%;
-    margin-bottom: 110px;
-    margin-left: 110px;
+.rectangle-border {
+    width: 385px;
+    height: 217px;
+    border: 1px solid black; /* Color y grosor del borde */
+    border-radius: 10px;
+    margin: 1rem;
 }
